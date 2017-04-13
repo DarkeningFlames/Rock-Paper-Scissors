@@ -1,0 +1,674 @@
+16:57:02.373 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=b65c34ad-eab8-49cd-b67f-f6e93a416c93,javaHome=C:\Program Files\Java\jdk1.7.0_79,daemonRegistryDir=C:\Users\FTC 6473\.gradle\daemon,pid=976,idleTimeout=10800000,daemonOpts=-XX:MaxHeapSize=512m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+16:57:02.391 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1447887422391
+16:57:02.584 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Software Loopback Interface 1
+16:57:02.586 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? true
+16:57:02.598 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+16:57:02.599 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /127.0.0.1
+16:57:02.600 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /0:0:0:0:0:0:0:1
+16:57:02.601 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Software Loopback Interface 1
+16:57:02.602 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (SSTP)
+16:57:02.605 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+16:57:02.607 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+16:57:02.608 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (SSTP)
+16:57:02.608 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IKEv2)
+16:57:02.610 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+16:57:02.612 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+16:57:02.613 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IKEv2)
+16:57:02.613 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (L2TP)
+16:57:02.616 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+16:57:02.618 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+16:57:02.618 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (L2TP)
+16:57:02.619 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (PPTP)
+16:57:02.621 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+16:57:02.624 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+16:57:02.625 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (PPTP)
+16:57:02.625 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (PPPOE)
+16:57:02.627 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+16:57:02.631 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+16:57:02.632 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (PPPOE)
+16:57:02.632 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IPv6)
+16:57:02.634 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+16:57:02.636 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+16:57:02.637 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IPv6)
+16:57:02.637 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (Network Monitor)
+16:57:02.640 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+16:57:02.641 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+16:57:02.642 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (Network Monitor)
+16:57:02.642 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IP)
+16:57:02.644 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+16:57:02.646 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+16:57:02.646 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IP)
+16:57:02.647 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface RAS Async Adapter
+16:57:02.648 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+16:57:02.650 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+16:57:02.650 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface RAS Async Adapter
+16:57:02.650 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Broadcom NetXtreme Gigabit Ethernet
+16:57:02.652 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+16:57:02.653 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+16:57:02.653 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /172.16.72.133
+16:57:02.654 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:9153:ea9b:5c9f:e8b1%11
+16:57:02.654 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface Broadcom NetXtreme Gigabit Ethernet
+16:57:02.655 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft ISATAP Adapter
+16:57:02.656 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+16:57:02.657 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? false
+16:57:02.658 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Bluetooth Device (Personal Area Network)
+16:57:02.658 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+16:57:02.660 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+16:57:02.660 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:f9f3:ce7f:5fd1:a3c7%13
+16:57:02.661 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface Bluetooth Device (Personal Area Network)
+16:57:02.661 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft ISATAP Adapter #2
+16:57:02.663 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+16:57:02.664 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? false
+16:57:02.665 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:0:5efe:ac10:4885%14
+16:57:02.665 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Bluetooth Device (RFCOMM Protocol TDI)
+16:57:02.667 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+16:57:02.668 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+16:57:02.669 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Bluetooth Device (RFCOMM Protocol TDI)
+16:57:02.669 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Broadcom NetXtreme Gigabit Ethernet-QoS Packet Scheduler-0000
+16:57:02.672 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+16:57:02.674 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+16:57:02.674 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Broadcom NetXtreme Gigabit Ethernet-QoS Packet Scheduler-0000
+16:57:02.675 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Broadcom NetXtreme Gigabit Ethernet-WFP LightWeight Filter-0000
+16:57:02.676 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+16:57:02.678 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+16:57:02.678 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Broadcom NetXtreme Gigabit Ethernet-WFP LightWeight Filter-0000
+16:57:02.679 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+16:57:02.680 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+16:57:02.682 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+16:57:02.682 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+16:57:02.683 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+16:57:02.685 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+16:57:02.686 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+16:57:02.686 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+16:57:02.687 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+16:57:02.688 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+16:57:02.689 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+16:57:02.689 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+16:57:02.793 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Listening on [d253f5f8-3317-4303-8e30-9d7f677e82ec port:49179, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]].
+16:57:02.796 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Wed Nov 18 16:57:02 CST 2015, with address: [d253f5f8-3317-4303-8e30-9d7f677e82ec port:49179, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+16:57:02.796 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertising the daemon address to the clients: [d253f5f8-3317-4303-8e30-9d7f677e82ec port:49179, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+16:57:02.797 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=b65c34ad-eab8-49cd-b67f-f6e93a416c93,javaHome=C:\Program Files\Java\jdk1.7.0_79,daemonRegistryDir=C:\Users\FTC 6473\.gradle\daemon,pid=976,idleTimeout=10800000,daemonOpts=-XX:MaxHeapSize=512m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+16:57:02.797 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [d253f5f8-3317-4303-8e30-9d7f677e82ec port:49179, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]], context: DefaultDaemonContext[uid=b65c34ad-eab8-49cd-b67f-f6e93a416c93,javaHome=C:\Program Files\Java\jdk1.7.0_79,daemonRegistryDir=C:\Users\FTC 6473\.gradle\daemon,pid=976,idleTimeout=10800000,daemonOpts=-XX:MaxHeapSize=512m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+16:57:02.985 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+16:57:02.985 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+16:57:03.113 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+16:57:03.114 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+16:57:03.137 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+16:57:03.138 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] requestStopOnIdleTimeout(10800000 MILLISECONDS) called on daemon
+16:57:03.139 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: waiting for daemon to stop or be idle for 10800000ms
+16:57:03.140 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Wed Nov 18 19:57:02 CST 2015
+16:57:03.228 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:49180 to /127.0.0.1:49179.
+16:57:03.355 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: received class org.gradle.launcher.daemon.protocol.Build
+16:57:03.355 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=a7e13f0a-72bb-4861-aa21-a306ac27d5c4.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master}
+16:57:03.356 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=a7e13f0a-72bb-4861-aa21-a306ac27d5c4.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master}.
+16:57:03.356 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=a7e13f0a-72bb-4861-aa21-a306ac27d5c4.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master} with connection: socket connection from /127.0.0.1:49179 to /127.0.0.1:49180.
+16:57:03.397 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=a7e13f0a-72bb-4861-aa21-a306ac27d5c4.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@7224eaaa] after 0.0 minutes of idle
+16:57:03.397 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [d253f5f8-3317-4303-8e30-9d7f677e82ec port:49179, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+16:57:03.398 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [d253f5f8-3317-4303-8e30-9d7f677e82ec port:49179, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+16:57:03.399 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+16:57:03.399 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+16:57:03.403 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+16:57:03.403 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1447887423403
+16:57:03.404 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+16:57:03.405 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=a7e13f0a-72bb-4861-aa21-a306ac27d5c4.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master}. Dispatching build started information...
+16:57:03.406 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 16: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+16:57:03.411 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {USERPROFILE=C:\Users\FTC 6473, ProgramData=C:\ProgramData, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, ProgramFiles(x86)=C:\Program Files (x86), TEMP=C:\Users\FTC647~1\AppData\Local\Temp, SystemDrive=C:, ProgramFiles=C:\Program Files, Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\, HOMEDRIVE=C:, PROCESSOR_REVISION=2505, USERDOMAIN=FTC6473-PC, ALLUSERSPROFILE=C:\ProgramData, ProgramW6432=C:\Program Files, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 37 Stepping 5, GenuineIntel, SESSIONNAME=Console, TMP=C:\Users\FTC647~1\AppData\Local\Temp, CommonProgramFiles=C:\Program Files\Common Files, =::=::\, LOGONSERVER=\\FTC6473-PC, PROCESSOR_ARCHITECTURE=AMD64, FP_NO_HOST_CHECK=NO, OS=Windows_NT, HOMEPATH=\Users\FTC 6473, PROCESSOR_LEVEL=6, CommonProgramW6432=C:\Program Files\Common Files, LOCALAPPDATA=C:\Users\FTC 6473\AppData\Local, COMPUTERNAME=FTC6473-PC, windir=C:\Windows, SystemRoot=C:\Windows, NUMBER_OF_PROCESSORS=4, USERNAME=FTC 6473, PUBLIC=C:\Users\Public, PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ComSpec=C:\Windows\system32\cmd.exe, APPDATA=C:\Users\FTC 6473\AppData\Roaming}
+16:57:03.430 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+16:57:03.431 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 976). The daemon log file: C:\Users\FTC 6473\.gradle\daemon\2.4\daemon-976.out.log
+16:57:03.440 [INFO] [org.gradle.launcher.daemon.server.health.DaemonHealthTracker] Starting build in new daemon [memory: 477.1 MB]
+16:57:03.445 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+16:57:03.445 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=b65c34ad-eab8-49cd-b67f-f6e93a416c93,javaHome=C:\Program Files\Java\jdk1.7.0_79,daemonRegistryDir=C:\Users\FTC 6473\.gradle\daemon,pid=976,idleTimeout=10800000,daemonOpts=-XX:MaxHeapSize=512m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+16:57:03.824 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: received class org.gradle.launcher.daemon.protocol.CloseInput
+16:57:03.825 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received IO message from client: CloseInput[id=a7e13f0a-72bb-4861-aa21-a306ac27d5c4.2]
+16:57:03.826 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+16:57:03.827 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+16:57:11.422 [DEBUG] [org.gradle.internal.nativeintegration.services.NativeServices] Native-platform posix files is not available.  Continuing with fallback.
+16:57:13.331 [INFO] [org.gradle.tooling.internal.provider.DefaultPayloadClassLoaderRegistry] Creating ClassLoader 03245a2a-aa2b-4fae-b27a-c3f66c3858ed from [Spec classpath:[file:/C:/Program%20Files/Android/Android%20Studio/plugins/gradle/lib/gradle-tooling-api-2.2.jar, file:/C:/Program%20Files/Android/Android%20Studio/plugins/gradle/lib/guava-jdk5-17.0.jar, file:/C:/Program%20Files/Android/Android%20Studio/plugins/gradle/lib/gradle-base-services-2.2.jar, file:/C:/Program%20Files/Android/Android%20Studio/plugins/gradle/lib/gradle-tooling-extension-api.jar, file:/C:/Program%20Files/Android/Android%20Studio/lib/openapi.jar, file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/builder-model-1.4.0-beta2.jar, file:/C:/Program%20Files/Android/Android%20Studio/plugins/google-cloud-tools-core/lib/gradle-appengine-builder-model-0.1.0.jar]] and [org.gradle.internal.classloader.FilteringClassLoader@7edeaa13].
+16:57:13.351 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on jars (C:\Users\FTC 6473\.gradle\caches\jars-1).
+16:57:13.351 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+16:57:13.354 [DEBUG] [org.gradle.cache.internal.locklistener.DefaultFileLockContentionHandler] Starting file lock listener thread.
+
+BUILD SUCCESSFUL
+
+Total time: 49.962 secs
+16:57:48.784 [DEBUG] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopping 0 compiler daemon(s).
+16:57:48.784 [INFO] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopped 0 compiler daemon(s).
+16:57:48.785 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on initscript class cache for initialization script 'C:\Users\FTC 6473\AppData\Local\Temp\asLocalRepo20.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\asLocalRepo20_5mf98rjjmxamcv4ncn3vb1lrj\InitScript\initscript).
+16:57:48.785 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_initscript class cache for initialization script 'C:\Users\FTC 6473\AppData\Local\Temp\asLocalRepo20.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\asLocalRepo20_5mf98rjjmxamcv4ncn3vb1lrj\InitScript\no_initscript).
+16:57:48.786 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on initscript class cache for initialization script 'C:\Users\FTC 6473\AppData\Local\Temp\ijinit5.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\ijinit5_f3to95ylm3twuurkuyhjubasa\InitScript\initscript).
+16:57:48.786 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_initscript class cache for initialization script 'C:\Users\FTC 6473\AppData\Local\Temp\ijinit5.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\ijinit5_f3to95ylm3twuurkuyhjubasa\InitScript\no_initscript).
+16:57:48.787 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for settings file 'C:\Users\FTC 6473\Downloads\ftc_app-master\settings.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\settings_erz9k11bc2zsepoug9f6akgwe\SettingsScript\buildscript).
+16:57:48.787 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for settings file 'C:\Users\FTC 6473\Downloads\ftc_app-master\settings.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\settings_erz9k11bc2zsepoug9f6akgwe\SettingsScript\no_buildscript).
+16:57:48.788 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_pglf30dpe6ubx5mkujtn6a0h\ProjectScript\buildscript).
+16:57:48.788 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_pglf30dpe6ubx5mkujtn6a0h\ProjectScript\no_buildscript).
+16:57:48.789 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\FtcRobotController\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_ew4newoalg909vbkn65xjmlki\ProjectScript\buildscript).
+16:57:48.789 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\FtcRobotController\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_ew4newoalg909vbkn65xjmlki\ProjectScript\no_buildscript).
+16:57:48.790 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\SwerveRoboticsLibrary\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_ar5x8orjdz0wtmt71xxf54c51\ProjectScript\buildscript).
+16:57:48.790 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\SwerveRoboticsLibrary\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_ar5x8orjdz0wtmt71xxf54c51\ProjectScript\no_buildscript).
+16:57:48.791 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\YourCodeHere\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_ep8ywb44loujdan57u74fcs63\ProjectScript\buildscript).
+16:57:48.791 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\YourCodeHere\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_ep8ywb44loujdan57u74fcs63\ProjectScript\no_buildscript).
+16:57:48.792 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on jars (C:\Users\FTC 6473\.gradle\caches\jars-1).
+16:57:48.794 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (C:\Users\FTC 6473\.gradle\caches\2.4\plugin-resolution) was closed 0 times.
+16:57:48.795 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (C:\Users\FTC 6473\.gradle\caches\modules-2\metadata-2.15\module-metadata.bin)
+16:57:48.796 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (C:\Users\FTC 6473\.gradle\caches\modules-2).
+16:57:48.811 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 17, disk reads: 28 (avg: 0.005 secs, total: 0.149 secs)
+16:57:48.843 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolved configuration cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+16:57:48.843 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.034 secs
+16:57:48.845 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 180, cache instances: 8, modules served from cache: 958, artifacts: 209
+16:57:48.846 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+16:57:49.331 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+16:57:49.332 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=a7e13f0a-72bb-4861-aa21-a306ac27d5c4.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@7224eaaa]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@3fbae84e with state Running
+16:57:49.332 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=a7e13f0a-72bb-4861-aa21-a306ac27d5c4.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@7224eaaa]
+16:57:49.332 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1447887469332
+16:57:49.333 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [d253f5f8-3317-4303-8e30-9d7f677e82ec port:49179, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+16:57:49.333 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [d253f5f8-3317-4303-8e30-9d7f677e82ec port:49179, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+16:57:49.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+16:57:49.335 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+16:57:49.340 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+16:57:49.341 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.tooling.internal.provider.BuildActionResult@5bfd1b70]
+16:57:49.341 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.Success
+16:57:49.343 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Wed Nov 18 19:57:49 CST 2015
+16:57:49.386 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=a7e13f0a-72bb-4861-aa21-a306ac27d5c4.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master}
+16:57:49.392 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: received class org.gradle.launcher.daemon.protocol.Finished
+16:57:49.392 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@952b025
+16:57:49.393 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: received null
+16:57:49.393 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+16:57:49.394 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: null
+16:57:49.394 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+16:57:49.397 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+16:57:54.553 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:49457 to /127.0.0.1:49179.
+16:57:54.578 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 19: received class org.gradle.launcher.daemon.protocol.Build
+16:57:54.579 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=74575e55-0614-45f7-85f0-d7e0cb35cdbb.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master}
+16:57:54.579 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=74575e55-0614-45f7-85f0-d7e0cb35cdbb.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master}.
+16:57:54.580 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=74575e55-0614-45f7-85f0-d7e0cb35cdbb.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master} with connection: socket connection from /127.0.0.1:49179 to /127.0.0.1:49457.
+16:57:54.580 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=74575e55-0614-45f7-85f0-d7e0cb35cdbb.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@7fd01850] after 0.0 minutes of idle
+16:57:54.581 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [d253f5f8-3317-4303-8e30-9d7f677e82ec port:49179, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+16:57:54.581 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [d253f5f8-3317-4303-8e30-9d7f677e82ec port:49179, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+16:57:54.582 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+16:57:54.583 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+16:57:54.587 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+16:57:54.587 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1447887474587
+16:57:54.588 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+16:57:54.588 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=74575e55-0614-45f7-85f0-d7e0cb35cdbb.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master}. Dispatching build started information...
+16:57:54.588 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 16: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+16:57:54.590 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {USERPROFILE=C:\Users\FTC 6473, ProgramData=C:\ProgramData, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, ProgramFiles(x86)=C:\Program Files (x86), TEMP=C:\Users\FTC647~1\AppData\Local\Temp, SystemDrive=C:, ProgramFiles=C:\Program Files, Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\, HOMEDRIVE=C:, PROCESSOR_REVISION=2505, USERDOMAIN=FTC6473-PC, ALLUSERSPROFILE=C:\ProgramData, ProgramW6432=C:\Program Files, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 37 Stepping 5, GenuineIntel, SESSIONNAME=Console, TMP=C:\Users\FTC647~1\AppData\Local\Temp, CommonProgramFiles=C:\Program Files\Common Files, =::=::\, LOGONSERVER=\\FTC6473-PC, PROCESSOR_ARCHITECTURE=AMD64, FP_NO_HOST_CHECK=NO, OS=Windows_NT, HOMEPATH=\Users\FTC 6473, PROCESSOR_LEVEL=6, CommonProgramW6432=C:\Program Files\Common Files, LOCALAPPDATA=C:\Users\FTC 6473\AppData\Local, COMPUTERNAME=FTC6473-PC, windir=C:\Windows, SystemRoot=C:\Windows, NUMBER_OF_PROCESSORS=4, USERNAME=FTC 6473, PUBLIC=C:\Users\Public, PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ComSpec=C:\Windows\system32\cmd.exe, APPDATA=C:\Users\FTC 6473\AppData\Roaming}
+16:57:54.592 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 19: received class org.gradle.launcher.daemon.protocol.CloseInput
+16:57:54.592 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+16:57:54.592 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received IO message from client: CloseInput[id=74575e55-0614-45f7-85f0-d7e0cb35cdbb.2]
+16:57:54.592 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 976). The daemon log file: C:\Users\FTC 6473\.gradle\daemon\2.4\daemon-976.out.log
+16:57:54.593 [INFO] [org.gradle.launcher.daemon.server.health.DaemonHealthTracker] Starting 2nd build in daemon [uptime: 52.235 secs, performance: 97%, memory: 50% of 477.1 MB]
+16:57:54.594 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+16:57:54.594 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+16:57:54.594 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=b65c34ad-eab8-49cd-b67f-f6e93a416c93,javaHome=C:\Program Files\Java\jdk1.7.0_79,daemonRegistryDir=C:\Users\FTC 6473\.gradle\daemon,pid=976,idleTimeout=10800000,daemonOpts=-XX:MaxHeapSize=512m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+16:57:54.594 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+Configuration on demand is an incubating feature.
+:FtcRobotController:preBuild UP-TO-DATE
+:FtcRobotController:preDebugBuild UP-TO-DATE
+:FtcRobotController:checkDebugManifest
+:FtcRobotController:preDebugAndroidTestBuild UP-TO-DATE
+:FtcRobotController:preDebugUnitTestBuild UP-TO-DATE
+:FtcRobotController:preReleaseBuild UP-TO-DATE
+:FtcRobotController:preReleaseUnitTestBuild UP-TO-DATE
+:SwerveRoboticsLibrary:compileLint
+:SwerveRoboticsLibrary:copyReleaseLint UP-TO-DATE
+:SwerveRoboticsLibrary:mergeReleaseProguardFiles UP-TO-DATE
+:SwerveRoboticsLibrary:preBuild UP-TO-DATE
+:SwerveRoboticsLibrary:preReleaseBuild UP-TO-DATE
+:SwerveRoboticsLibrary:checkReleaseManifest
+:SwerveRoboticsLibrary:preDebugAndroidTestBuild UP-TO-DATE
+:SwerveRoboticsLibrary:preDebugBuild UP-TO-DATE
+:SwerveRoboticsLibrary:preDebugUnitTestBuild UP-TO-DATE
+:SwerveRoboticsLibrary:preReleaseUnitTestBuild UP-TO-DATE
+:SwerveRoboticsLibrary:prepareAnalyticsReleaseLibrary UP-TO-DATE
+:SwerveRoboticsLibrary:prepareFtcCommonReleaseLibrary UP-TO-DATE
+:SwerveRoboticsLibrary:prepareHardwareReleaseLibrary UP-TO-DATE
+:SwerveRoboticsLibrary:prepareModernRoboticsReleaseLibrary UP-TO-DATE
+:SwerveRoboticsLibrary:prepareRobotCoreReleaseLibrary UP-TO-DATE
+:SwerveRoboticsLibrary:prepareWirelessP2pReleaseLibrary UP-TO-DATE
+:SwerveRoboticsLibrary:prepareReleaseDependencies
+:SwerveRoboticsLibrary:compileReleaseAidl UP-TO-DATE
+:SwerveRoboticsLibrary:compileReleaseRenderscript UP-TO-DATE
+:SwerveRoboticsLibrary:generateReleaseBuildConfig UP-TO-DATE
+:SwerveRoboticsLibrary:generateReleaseAssets UP-TO-DATE
+:SwerveRoboticsLibrary:mergeReleaseAssets UP-TO-DATE
+:SwerveRoboticsLibrary:generateReleaseResValues UP-TO-DATE
+:SwerveRoboticsLibrary:generateReleaseResources UP-TO-DATE
+:SwerveRoboticsLibrary:mergeReleaseResources UP-TO-DATE
+:SwerveRoboticsLibrary:processReleaseManifest UP-TO-DATE
+:SwerveRoboticsLibrary:processReleaseResources UP-TO-DATE
+:SwerveRoboticsLibrary:generateReleaseSources UP-TO-DATE
+:SwerveRoboticsLibrary:processReleaseJavaRes UP-TO-DATE
+:SwerveRoboticsLibrary:compileReleaseJava UP-TO-DATE
+:SwerveRoboticsLibrary:packageReleaseJar UP-TO-DATE
+:SwerveRoboticsLibrary:compileReleaseNdk UP-TO-DATE
+:SwerveRoboticsLibrary:packageReleaseJniLibs UP-TO-DATE
+:SwerveRoboticsLibrary:packageReleaseLocalJar UP-TO-DATE
+:SwerveRoboticsLibrary:packageReleaseRenderscript UP-TO-DATE
+:SwerveRoboticsLibrary:packageReleaseResources UP-TO-DATE
+:SwerveRoboticsLibrary:bundleRelease UP-TO-DATE
+:FtcRobotController:prepareAnalyticsReleaseLibrary UP-TO-DATE
+:FtcRobotController:prepareFtcCommonReleaseLibrary UP-TO-DATE
+:FtcRobotController:prepareFtc_appMasterSwerveRoboticsLibraryUnspecifiedLibrary UP-TO-DATE
+:FtcRobotController:prepareHardwareReleaseLibrary UP-TO-DATE
+:FtcRobotController:prepareModernRoboticsReleaseLibrary UP-TO-DATE
+:FtcRobotController:prepareRobotCoreReleaseLibrary UP-TO-DATE
+:FtcRobotController:prepareWirelessP2pReleaseLibrary UP-TO-DATE
+:FtcRobotController:prepareDebugDependencies
+:FtcRobotController:compileDebugAidl UP-TO-DATE
+:FtcRobotController:compileDebugRenderscript UP-TO-DATE
+:FtcRobotController:generateDebugBuildConfig UP-TO-DATE
+:FtcRobotController:generateDebugAssets UP-TO-DATE
+:FtcRobotController:mergeDebugAssets UP-TO-DATE
+:FtcRobotController:generateDebugResValues UP-TO-DATE
+:FtcRobotController:generateDebugResources UP-TO-DATE
+:FtcRobotController:mergeDebugResources UP-TO-DATE
+:FtcRobotController:processDebugManifest UP-TO-DATE
+:FtcRobotController:processDebugResources UP-TO-DATE
+:FtcRobotController:generateDebugSources UP-TO-DATE
+:FtcRobotController:prepareDebugAndroidTestDependencies
+:FtcRobotController:compileDebugAndroidTestAidl UP-TO-DATE
+:FtcRobotController:compileLint
+:FtcRobotController:copyDebugLint UP-TO-DATE
+:FtcRobotController:mergeDebugProguardFiles UP-TO-DATE
+:FtcRobotController:processDebugJavaRes UP-TO-DATE
+:FtcRobotController:compileDebugJava UP-TO-DATE
+:FtcRobotController:packageDebugJar UP-TO-DATE
+:FtcRobotController:compileDebugNdk UP-TO-DATE
+:FtcRobotController:packageDebugJniLibs UP-TO-DATE
+:FtcRobotController:packageDebugLocalJar UP-TO-DATE
+:FtcRobotController:packageDebugRenderscript UP-TO-DATE
+:FtcRobotController:packageDebugResources UP-TO-DATE
+:FtcRobotController:bundleDebug UP-TO-DATE
+:FtcRobotController:compileDebugSources UP-TO-DATE
+:FtcRobotController:assembleDebug UP-TO-DATE
+:FtcRobotController:processDebugAndroidTestManifest UP-TO-DATE
+:FtcRobotController:compileDebugAndroidTestRenderscript UP-TO-DATE
+:FtcRobotController:generateDebugAndroidTestBuildConfig UP-TO-DATE
+:FtcRobotController:generateDebugAndroidTestAssets UP-TO-DATE
+:FtcRobotController:mergeDebugAndroidTestAssets UP-TO-DATE
+:FtcRobotController:generateDebugAndroidTestResValues UP-TO-DATE
+:FtcRobotController:generateDebugAndroidTestResources UP-TO-DATE
+:FtcRobotController:mergeDebugAndroidTestResources UP-TO-DATE
+:FtcRobotController:processDebugAndroidTestResources UP-TO-DATE
+:FtcRobotController:generateDebugAndroidTestSources UP-TO-DATE
+:FtcRobotController:processDebugAndroidTestJavaRes UP-TO-DATE
+:FtcRobotController:compileDebugAndroidTestJava UP-TO-DATE
+:FtcRobotController:compileDebugAndroidTestNdk UP-TO-DATE
+:FtcRobotController:compileDebugAndroidTestSources UP-TO-DATE
+:SwerveRoboticsLibrary:checkDebugManifest
+:SwerveRoboticsLibrary:prepareDebugDependencies
+:SwerveRoboticsLibrary:compileDebugAidl UP-TO-DATE
+:SwerveRoboticsLibrary:compileDebugRenderscript UP-TO-DATE
+:SwerveRoboticsLibrary:generateDebugBuildConfig UP-TO-DATE
+:SwerveRoboticsLibrary:generateDebugAssets UP-TO-DATE
+:SwerveRoboticsLibrary:mergeDebugAssets UP-TO-DATE
+:SwerveRoboticsLibrary:generateDebugResValues UP-TO-DATE
+:SwerveRoboticsLibrary:generateDebugResources UP-TO-DATE
+:SwerveRoboticsLibrary:mergeDebugResources UP-TO-DATE
+:SwerveRoboticsLibrary:processDebugManifest UP-TO-DATE
+:SwerveRoboticsLibrary:processDebugResources UP-TO-DATE
+:SwerveRoboticsLibrary:generateDebugSources UP-TO-DATE
+:SwerveRoboticsLibrary:prepareDebugAndroidTestDependencies
+:SwerveRoboticsLibrary:compileDebugAndroidTestAidl UP-TO-DATE
+:SwerveRoboticsLibrary:copyDebugLint UP-TO-DATE
+:SwerveRoboticsLibrary:mergeDebugProguardFiles UP-TO-DATE
+:SwerveRoboticsLibrary:processDebugJavaRes UP-TO-DATE
+:SwerveRoboticsLibrary:compileDebugJava UP-TO-DATE
+:SwerveRoboticsLibrary:packageDebugJar UP-TO-DATE
+:SwerveRoboticsLibrary:compileDebugNdk UP-TO-DATE
+:SwerveRoboticsLibrary:packageDebugJniLibs UP-TO-DATE
+:SwerveRoboticsLibrary:packageDebugLocalJar UP-TO-DATE
+:SwerveRoboticsLibrary:packageDebugRenderscript UP-TO-DATE
+:SwerveRoboticsLibrary:packageDebugResources UP-TO-DATE
+:SwerveRoboticsLibrary:bundleDebug UP-TO-DATE
+:SwerveRoboticsLibrary:compileDebugSources UP-TO-DATE
+:SwerveRoboticsLibrary:assembleDebug UP-TO-DATE
+:SwerveRoboticsLibrary:processDebugAndroidTestManifest UP-TO-DATE
+:SwerveRoboticsLibrary:compileDebugAndroidTestRenderscript UP-TO-DATE
+:SwerveRoboticsLibrary:generateDebugAndroidTestBuildConfig UP-TO-DATE
+:SwerveRoboticsLibrary:generateDebugAndroidTestAssets UP-TO-DATE
+:SwerveRoboticsLibrary:mergeDebugAndroidTestAssets UP-TO-DATE
+:SwerveRoboticsLibrary:generateDebugAndroidTestResValues UP-TO-DATE
+:SwerveRoboticsLibrary:generateDebugAndroidTestResources UP-TO-DATE
+:SwerveRoboticsLibrary:mergeDebugAndroidTestResources UP-TO-DATE
+:SwerveRoboticsLibrary:processDebugAndroidTestResources UP-TO-DATE
+:SwerveRoboticsLibrary:generateDebugAndroidTestSources UP-TO-DATE
+:SwerveRoboticsLibrary:processDebugAndroidTestJavaRes UP-TO-DATE
+:SwerveRoboticsLibrary:compileDebugAndroidTestJava UP-TO-DATE
+:SwerveRoboticsLibrary:compileDebugAndroidTestNdk UP-TO-DATE
+:SwerveRoboticsLibrary:compileDebugAndroidTestSources UP-TO-DATE
+:YourCodeHere:preBuild UP-TO-DATE
+:YourCodeHere:preDebugBuild UP-TO-DATE
+:YourCodeHere:checkDebugManifest
+:FtcRobotController:copyReleaseLint UP-TO-DATE
+:FtcRobotController:mergeReleaseProguardFiles UP-TO-DATE
+:FtcRobotController:checkReleaseManifest
+:FtcRobotController:prepareReleaseDependencies
+:FtcRobotController:compileReleaseAidl UP-TO-DATE
+:FtcRobotController:compileReleaseRenderscript UP-TO-DATE
+:FtcRobotController:generateReleaseBuildConfig UP-TO-DATE
+:FtcRobotController:generateReleaseAssets UP-TO-DATE
+:FtcRobotController:mergeReleaseAssets UP-TO-DATE
+:FtcRobotController:generateReleaseResValues UP-TO-DATE
+:FtcRobotController:generateReleaseResources UP-TO-DATE
+:FtcRobotController:mergeReleaseResources UP-TO-DATE
+:FtcRobotController:processReleaseManifest UP-TO-DATE
+:FtcRobotController:processReleaseResources UP-TO-DATE
+:FtcRobotController:generateReleaseSources UP-TO-DATE
+:FtcRobotController:processReleaseJavaRes UP-TO-DATE
+:FtcRobotController:compileReleaseJava UP-TO-DATE
+:FtcRobotController:packageReleaseJar UP-TO-DATE
+:FtcRobotController:compileReleaseNdk UP-TO-DATE
+:FtcRobotController:packageReleaseJniLibs UP-TO-DATE
+:FtcRobotController:packageReleaseLocalJar UP-TO-DATE
+:FtcRobotController:packageReleaseRenderscript UP-TO-DATE
+:FtcRobotController:packageReleaseResources UP-TO-DATE
+:FtcRobotController:bundleRelease UP-TO-DATE
+:YourCodeHere:preReleaseBuild UP-TO-DATE
+:YourCodeHere:prepareAnalyticsReleaseLibrary UP-TO-DATE
+:YourCodeHere:prepareFtcCommonReleaseLibrary UP-TO-DATE
+:YourCodeHere:prepareFtc_appMasterFtcRobotControllerUnspecifiedLibrary UP-TO-DATE
+:YourCodeHere:prepareFtc_appMasterSwerveRoboticsLibraryUnspecifiedLibrary UP-TO-DATE
+:YourCodeHere:prepareHardwareReleaseLibrary UP-TO-DATE
+:YourCodeHere:prepareModernRoboticsReleaseLibrary UP-TO-DATE
+:YourCodeHere:prepareRobotCoreReleaseLibrary UP-TO-DATE
+:YourCodeHere:prepareWirelessP2pReleaseLibrary UP-TO-DATE
+:YourCodeHere:prepareDebugDependencies
+:YourCodeHere:compileDebugAidl UP-TO-DATE
+:YourCodeHere:compileDebugRenderscript UP-TO-DATE
+:YourCodeHere:generateDebugBuildConfig UP-TO-DATE
+:YourCodeHere:generateDebugAssets UP-TO-DATE
+:YourCodeHere:mergeDebugAssets UP-TO-DATE
+:YourCodeHere:generateDebugResValues UP-TO-DATE
+:YourCodeHere:generateDebugResources UP-TO-DATE
+:YourCodeHere:mergeDebugResources UP-TO-DATE
+:YourCodeHere:processDebugManifest UP-TO-DATE
+:YourCodeHere:processDebugResources UP-TO-DATE
+:YourCodeHere:generateDebugSources UP-TO-DATE
+:YourCodeHere:preDebugAndroidTestBuild UP-TO-DATE
+:YourCodeHere:prepareDebugAndroidTestDependencies
+:YourCodeHere:compileDebugAndroidTestAidl UP-TO-DATE
+:YourCodeHere:processDebugAndroidTestManifest UP-TO-DATE
+:YourCodeHere:compileDebugAndroidTestRenderscript UP-TO-DATE
+:YourCodeHere:generateDebugAndroidTestBuildConfig UP-TO-DATE
+:YourCodeHere:generateDebugAndroidTestAssets UP-TO-DATE
+:YourCodeHere:mergeDebugAndroidTestAssets UP-TO-DATE
+:YourCodeHere:generateDebugAndroidTestResValues UP-TO-DATE
+:YourCodeHere:generateDebugAndroidTestResources UP-TO-DATE
+:YourCodeHere:mergeDebugAndroidTestResources UP-TO-DATE
+:YourCodeHere:processDebugAndroidTestResources UP-TO-DATE
+:YourCodeHere:generateDebugAndroidTestSources UP-TO-DATE
+:YourCodeHere:processDebugJavaRes UP-TO-DATE
+:YourCodeHere:compileDebugJava UP-TO-DATE
+:YourCodeHere:compileDebugNdk UP-TO-DATE
+:YourCodeHere:compileDebugSources UP-TO-DATE
+:YourCodeHere:processDebugAndroidTestJavaRes UP-TO-DATE
+:YourCodeHere:compileDebugAndroidTestJava
+:YourCodeHere:compileDebugAndroidTestNdk UP-TO-DATE
+:YourCodeHere:compileDebugAndroidTestSources
+
+BUILD SUCCESSFUL
+
+Total time: 10.583 secs
+16:58:05.105 [DEBUG] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopping 0 compiler daemon(s).
+16:58:05.106 [INFO] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopped 0 compiler daemon(s).
+16:58:05.106 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on initscript class cache for initialization script 'C:\Users\FTC 6473\AppData\Local\Temp\asLocalRepo21.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\asLocalRepo21_2fjzravc9fen9f50nncdulh66\InitScript\initscript).
+16:58:05.107 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_initscript class cache for initialization script 'C:\Users\FTC 6473\AppData\Local\Temp\asLocalRepo21.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\asLocalRepo21_2fjzravc9fen9f50nncdulh66\InitScript\no_initscript).
+16:58:05.107 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for settings file 'C:\Users\FTC 6473\Downloads\ftc_app-master\settings.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\settings_erz9k11bc2zsepoug9f6akgwe\SettingsScript\buildscript).
+16:58:05.108 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for settings file 'C:\Users\FTC 6473\Downloads\ftc_app-master\settings.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\settings_erz9k11bc2zsepoug9f6akgwe\SettingsScript\no_buildscript).
+16:58:05.108 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_pglf30dpe6ubx5mkujtn6a0h\ProjectScript\buildscript).
+16:58:05.109 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_pglf30dpe6ubx5mkujtn6a0h\ProjectScript\no_buildscript).
+16:58:05.109 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\FtcRobotController\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_ew4newoalg909vbkn65xjmlki\ProjectScript\buildscript).
+16:58:05.110 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\FtcRobotController\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_ew4newoalg909vbkn65xjmlki\ProjectScript\no_buildscript).
+16:58:05.110 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\SwerveRoboticsLibrary\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_ar5x8orjdz0wtmt71xxf54c51\ProjectScript\buildscript).
+16:58:05.111 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\SwerveRoboticsLibrary\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_ar5x8orjdz0wtmt71xxf54c51\ProjectScript\no_buildscript).
+16:58:05.111 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\YourCodeHere\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_ep8ywb44loujdan57u74fcs63\ProjectScript\buildscript).
+16:58:05.112 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\YourCodeHere\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_ep8ywb44loujdan57u74fcs63\ProjectScript\no_buildscript).
+16:58:05.113 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache jars (C:\Users\FTC 6473\.gradle\caches\jars-1) was closed 0 times.
+16:58:05.113 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (C:\Users\FTC 6473\.gradle\caches\modules-2\metadata-2.15\module-metadata.bin)
+16:58:05.114 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (C:\Users\FTC 6473\.gradle\caches\modules-2).
+16:58:05.115 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (C:\Users\FTC 6473\.gradle\caches\2.4\plugin-resolution) was closed 0 times.
+16:58:05.117 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (C:\Users\FTC 6473\Downloads\ftc_app-master\.gradle\2.4\taskArtifacts\fileHashes.bin)
+16:58:05.118 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache outputFileStates.bin (C:\Users\FTC 6473\Downloads\ftc_app-master\.gradle\2.4\taskArtifacts\outputFileStates.bin)
+16:58:05.118 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache taskArtifacts.bin (C:\Users\FTC 6473\Downloads\ftc_app-master\.gradle\2.4\taskArtifacts\taskArtifacts.bin)
+16:58:05.119 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileSnapshots.bin (C:\Users\FTC 6473\Downloads\ftc_app-master\.gradle\2.4\taskArtifacts\fileSnapshots.bin)
+16:58:05.120 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on task history cache (C:\Users\FTC 6473\Downloads\ftc_app-master\.gradle\2.4\taskArtifacts).
+16:58:05.121 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 24 (avg: 0.001 secs, total: 0.03 secs)
+16:58:05.123 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolved configuration cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+16:58:05.123 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.002 secs
+16:58:05.124 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 122, cache instances: 8, modules served from cache: 696, artifacts: 84
+16:58:05.126 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+16:58:05.129 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+16:58:05.130 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=74575e55-0614-45f7-85f0-d7e0cb35cdbb.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@7fd01850]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@3fbae84e with state Running
+16:58:05.130 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=74575e55-0614-45f7-85f0-d7e0cb35cdbb.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@7fd01850]
+16:58:05.131 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1447887485131
+16:58:05.131 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [d253f5f8-3317-4303-8e30-9d7f677e82ec port:49179, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+16:58:05.132 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [d253f5f8-3317-4303-8e30-9d7f677e82ec port:49179, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+16:58:05.133 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+16:58:05.134 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+16:58:05.137 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+16:58:05.138 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.tooling.internal.provider.BuildActionResult@2d425298]
+16:58:05.138 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Wed Nov 18 19:58:05 CST 2015
+16:58:05.138 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.Success
+16:58:05.140 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=74575e55-0614-45f7-85f0-d7e0cb35cdbb.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master}
+16:58:05.143 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 19: received class org.gradle.launcher.daemon.protocol.Finished
+16:58:05.143 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@1a8c11e5
+16:58:05.144 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@1a8c11e5
+16:58:05.144 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 19: received null
+16:58:05.144 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+16:58:05.144 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+16:58:05.146 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+16:58:09.633 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:49549 to /127.0.0.1:49179.
+16:58:09.661 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 22: received class org.gradle.launcher.daemon.protocol.Build
+16:58:09.661 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: Build{id=e1c94830-667f-4771-9979-0ed3a9b0c5cf.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master}
+16:58:09.665 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=e1c94830-667f-4771-9979-0ed3a9b0c5cf.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master}.
+16:58:09.666 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=e1c94830-667f-4771-9979-0ed3a9b0c5cf.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master} with connection: socket connection from /127.0.0.1:49179 to /127.0.0.1:49549.
+16:58:09.667 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=e1c94830-667f-4771-9979-0ed3a9b0c5cf.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@67699a77] after 0.0 minutes of idle
+16:58:09.667 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [d253f5f8-3317-4303-8e30-9d7f677e82ec port:49179, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+16:58:09.668 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [d253f5f8-3317-4303-8e30-9d7f677e82ec port:49179, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+16:58:09.669 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+16:58:09.669 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+16:58:09.680 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+16:58:09.681 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1447887489681
+16:58:09.710 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=e1c94830-667f-4771-9979-0ed3a9b0c5cf.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master}. Dispatching build started information...
+16:58:09.711 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 16: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+16:58:09.715 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+16:58:09.715 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {USERPROFILE=C:\Users\FTC 6473, ProgramData=C:\ProgramData, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, ProgramFiles(x86)=C:\Program Files (x86), TEMP=C:\Users\FTC647~1\AppData\Local\Temp, SystemDrive=C:, ProgramFiles=C:\Program Files, Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\, HOMEDRIVE=C:, PROCESSOR_REVISION=2505, USERDOMAIN=FTC6473-PC, ALLUSERSPROFILE=C:\ProgramData, ProgramW6432=C:\Program Files, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 37 Stepping 5, GenuineIntel, SESSIONNAME=Console, TMP=C:\Users\FTC647~1\AppData\Local\Temp, CommonProgramFiles=C:\Program Files\Common Files, =::=::\, LOGONSERVER=\\FTC6473-PC, PROCESSOR_ARCHITECTURE=AMD64, FP_NO_HOST_CHECK=NO, OS=Windows_NT, HOMEPATH=\Users\FTC 6473, PROCESSOR_LEVEL=6, CommonProgramW6432=C:\Program Files\Common Files, LOCALAPPDATA=C:\Users\FTC 6473\AppData\Local, COMPUTERNAME=FTC6473-PC, windir=C:\Windows, SystemRoot=C:\Windows, NUMBER_OF_PROCESSORS=4, USERNAME=FTC 6473, PUBLIC=C:\Users\Public, PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ComSpec=C:\Windows\system32\cmd.exe, APPDATA=C:\Users\FTC 6473\AppData\Roaming}
+16:58:09.717 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+16:58:09.718 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 976). The daemon log file: C:\Users\FTC 6473\.gradle\daemon\2.4\daemon-976.out.log
+16:58:09.718 [INFO] [org.gradle.launcher.daemon.server.health.DaemonHealthTracker] Starting 3rd build in daemon [uptime: 1 mins 7.36 secs, performance: 97%, memory: 50% of 477.1 MB]
+16:58:09.720 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+16:58:09.720 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=b65c34ad-eab8-49cd-b67f-f6e93a416c93,javaHome=C:\Program Files\Java\jdk1.7.0_79,daemonRegistryDir=C:\Users\FTC 6473\.gradle\daemon,pid=976,idleTimeout=10800000,daemonOpts=-XX:MaxHeapSize=512m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+16:58:09.723 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 22: received class org.gradle.launcher.daemon.protocol.CloseInput
+16:58:09.723 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received IO message from client: CloseInput[id=e1c94830-667f-4771-9979-0ed3a9b0c5cf.2]
+16:58:09.724 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+16:58:09.725 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+Configuration on demand is an incubating feature.
+:YourCodeHere:preBuild UP-TO-DATE
+:YourCodeHere:preDebugBuild UP-TO-DATE
+:YourCodeHere:checkDebugManifest
+:FtcRobotController:compileLint
+:FtcRobotController:copyReleaseLint UP-TO-DATE
+:FtcRobotController:mergeReleaseProguardFiles UP-TO-DATE
+:FtcRobotController:preBuild UP-TO-DATE
+:FtcRobotController:preReleaseBuild UP-TO-DATE
+:FtcRobotController:checkReleaseManifest
+:FtcRobotController:preDebugAndroidTestBuild UP-TO-DATE
+:FtcRobotController:preDebugBuild UP-TO-DATE
+:FtcRobotController:preDebugUnitTestBuild UP-TO-DATE
+:FtcRobotController:preReleaseUnitTestBuild UP-TO-DATE
+:SwerveRoboticsLibrary:compileLint
+:SwerveRoboticsLibrary:copyReleaseLint UP-TO-DATE
+:SwerveRoboticsLibrary:mergeReleaseProguardFiles UP-TO-DATE
+:SwerveRoboticsLibrary:preBuild UP-TO-DATE
+:SwerveRoboticsLibrary:preReleaseBuild UP-TO-DATE
+:SwerveRoboticsLibrary:checkReleaseManifest
+:SwerveRoboticsLibrary:preDebugAndroidTestBuild UP-TO-DATE
+:SwerveRoboticsLibrary:preDebugBuild UP-TO-DATE
+:SwerveRoboticsLibrary:preDebugUnitTestBuild UP-TO-DATE
+:SwerveRoboticsLibrary:preReleaseUnitTestBuild UP-TO-DATE
+:SwerveRoboticsLibrary:prepareAnalyticsReleaseLibrary UP-TO-DATE
+:SwerveRoboticsLibrary:prepareFtcCommonReleaseLibrary UP-TO-DATE
+:SwerveRoboticsLibrary:prepareHardwareReleaseLibrary UP-TO-DATE
+:SwerveRoboticsLibrary:prepareModernRoboticsReleaseLibrary UP-TO-DATE
+:SwerveRoboticsLibrary:prepareRobotCoreReleaseLibrary UP-TO-DATE
+:SwerveRoboticsLibrary:prepareWirelessP2pReleaseLibrary UP-TO-DATE
+:SwerveRoboticsLibrary:prepareReleaseDependencies
+:SwerveRoboticsLibrary:compileReleaseAidl UP-TO-DATE
+:SwerveRoboticsLibrary:compileReleaseRenderscript UP-TO-DATE
+:SwerveRoboticsLibrary:generateReleaseBuildConfig UP-TO-DATE
+:SwerveRoboticsLibrary:generateReleaseAssets UP-TO-DATE
+:SwerveRoboticsLibrary:mergeReleaseAssets UP-TO-DATE
+:SwerveRoboticsLibrary:generateReleaseResValues UP-TO-DATE
+:SwerveRoboticsLibrary:generateReleaseResources UP-TO-DATE
+:SwerveRoboticsLibrary:mergeReleaseResources UP-TO-DATE
+:SwerveRoboticsLibrary:processReleaseManifest UP-TO-DATE
+:SwerveRoboticsLibrary:processReleaseResources UP-TO-DATE
+:SwerveRoboticsLibrary:generateReleaseSources UP-TO-DATE
+:SwerveRoboticsLibrary:processReleaseJavaRes UP-TO-DATE
+:SwerveRoboticsLibrary:compileReleaseJava UP-TO-DATE
+:SwerveRoboticsLibrary:packageReleaseJar UP-TO-DATE
+:SwerveRoboticsLibrary:compileReleaseNdk UP-TO-DATE
+:SwerveRoboticsLibrary:packageReleaseJniLibs UP-TO-DATE
+:SwerveRoboticsLibrary:packageReleaseLocalJar UP-TO-DATE
+:SwerveRoboticsLibrary:packageReleaseRenderscript UP-TO-DATE
+:SwerveRoboticsLibrary:packageReleaseResources UP-TO-DATE
+:SwerveRoboticsLibrary:bundleRelease UP-TO-DATE
+:FtcRobotController:prepareAnalyticsReleaseLibrary UP-TO-DATE
+:FtcRobotController:prepareFtcCommonReleaseLibrary UP-TO-DATE
+:FtcRobotController:prepareFtc_appMasterSwerveRoboticsLibraryUnspecifiedLibrary UP-TO-DATE
+:FtcRobotController:prepareHardwareReleaseLibrary UP-TO-DATE
+:FtcRobotController:prepareModernRoboticsReleaseLibrary UP-TO-DATE
+:FtcRobotController:prepareRobotCoreReleaseLibrary UP-TO-DATE
+:FtcRobotController:prepareWirelessP2pReleaseLibrary UP-TO-DATE
+:FtcRobotController:prepareReleaseDependencies
+:FtcRobotController:compileReleaseAidl UP-TO-DATE
+:FtcRobotController:compileReleaseRenderscript UP-TO-DATE
+:FtcRobotController:generateReleaseBuildConfig UP-TO-DATE
+:FtcRobotController:generateReleaseAssets UP-TO-DATE
+:FtcRobotController:mergeReleaseAssets UP-TO-DATE
+:FtcRobotController:generateReleaseResValues UP-TO-DATE
+:FtcRobotController:generateReleaseResources UP-TO-DATE
+:FtcRobotController:mergeReleaseResources UP-TO-DATE
+:FtcRobotController:processReleaseManifest UP-TO-DATE
+:FtcRobotController:processReleaseResources UP-TO-DATE
+:FtcRobotController:generateReleaseSources UP-TO-DATE
+:FtcRobotController:processReleaseJavaRes UP-TO-DATE
+:FtcRobotController:compileReleaseJava UP-TO-DATE
+:FtcRobotController:packageReleaseJar UP-TO-DATE
+:FtcRobotController:compileReleaseNdk UP-TO-DATE
+:FtcRobotController:packageReleaseJniLibs UP-TO-DATE
+:FtcRobotController:packageReleaseLocalJar UP-TO-DATE
+:FtcRobotController:packageReleaseRenderscript UP-TO-DATE
+:FtcRobotController:packageReleaseResources UP-TO-DATE
+:FtcRobotController:bundleRelease UP-TO-DATE
+:YourCodeHere:preReleaseBuild UP-TO-DATE
+:YourCodeHere:prepareAnalyticsReleaseLibrary UP-TO-DATE
+:YourCodeHere:prepareFtcCommonReleaseLibrary UP-TO-DATE
+:YourCodeHere:prepareFtc_appMasterFtcRobotControllerUnspecifiedLibrary UP-TO-DATE
+:YourCodeHere:prepareFtc_appMasterSwerveRoboticsLibraryUnspecifiedLibrary UP-TO-DATE
+:YourCodeHere:prepareHardwareReleaseLibrary UP-TO-DATE
+:YourCodeHere:prepareModernRoboticsReleaseLibrary UP-TO-DATE
+:YourCodeHere:prepareRobotCoreReleaseLibrary UP-TO-DATE
+:YourCodeHere:prepareWirelessP2pReleaseLibrary UP-TO-DATE
+:YourCodeHere:prepareDebugDependencies
+:YourCodeHere:compileDebugAidl UP-TO-DATE
+:YourCodeHere:compileDebugRenderscript UP-TO-DATE
+:YourCodeHere:generateDebugBuildConfig UP-TO-DATE
+:YourCodeHere:generateDebugAssets UP-TO-DATE
+:YourCodeHere:mergeDebugAssets UP-TO-DATE
+:YourCodeHere:generateDebugResValues UP-TO-DATE
+:YourCodeHere:generateDebugResources UP-TO-DATE
+:YourCodeHere:mergeDebugResources UP-TO-DATE
+:YourCodeHere:processDebugManifest UP-TO-DATE
+:YourCodeHere:processDebugResources UP-TO-DATE
+:YourCodeHere:generateDebugSources UP-TO-DATE
+:YourCodeHere:preDebugAndroidTestBuild UP-TO-DATE
+:YourCodeHere:prepareDebugAndroidTestDependencies
+:YourCodeHere:compileDebugAndroidTestAidl UP-TO-DATE
+:YourCodeHere:processDebugAndroidTestManifest UP-TO-DATE
+:YourCodeHere:compileDebugAndroidTestRenderscript UP-TO-DATE
+:YourCodeHere:generateDebugAndroidTestBuildConfig UP-TO-DATE
+:YourCodeHere:generateDebugAndroidTestAssets UP-TO-DATE
+:YourCodeHere:mergeDebugAndroidTestAssets UP-TO-DATE
+:YourCodeHere:generateDebugAndroidTestResValues UP-TO-DATE
+:YourCodeHere:generateDebugAndroidTestResources UP-TO-DATE
+:YourCodeHere:mergeDebugAndroidTestResources UP-TO-DATE
+:YourCodeHere:processDebugAndroidTestResources UP-TO-DATE
+:YourCodeHere:generateDebugAndroidTestSources UP-TO-DATE
+:YourCodeHere:processDebugJavaRes UP-TO-DATE
+:YourCodeHere:compileDebugJava UP-TO-DATE
+:YourCodeHere:compileDebugNdk UP-TO-DATE
+:YourCodeHere:compileDebugSources UP-TO-DATE
+:YourCodeHere:preDexDebug UP-TO-DATE
+:YourCodeHere:dexDebug UP-TO-DATE
+:YourCodeHere:validateDebugSigning
+:YourCodeHere:packageDebug UP-TO-DATE
+:YourCodeHere:zipalignDebug UP-TO-DATE
+:YourCodeHere:assembleDebug UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 3.025 secs
+16:58:12.494 [DEBUG] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopping 0 compiler daemon(s).
+16:58:12.494 [INFO] [org.gradle.api.internal.tasks.compile.daemon.CompilerDaemonManager] Stopped 0 compiler daemon(s).
+16:58:12.495 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on initscript class cache for initialization script 'C:\Users\FTC 6473\AppData\Local\Temp\asLocalRepo22.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\asLocalRepo22_64c8q9xx1scql6pvt1gpnhl5j\InitScript\initscript).
+16:58:12.495 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_initscript class cache for initialization script 'C:\Users\FTC 6473\AppData\Local\Temp\asLocalRepo22.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\asLocalRepo22_64c8q9xx1scql6pvt1gpnhl5j\InitScript\no_initscript).
+16:58:12.495 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for settings file 'C:\Users\FTC 6473\Downloads\ftc_app-master\settings.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\settings_erz9k11bc2zsepoug9f6akgwe\SettingsScript\buildscript).
+16:58:12.495 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for settings file 'C:\Users\FTC 6473\Downloads\ftc_app-master\settings.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\settings_erz9k11bc2zsepoug9f6akgwe\SettingsScript\no_buildscript).
+16:58:12.495 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_pglf30dpe6ubx5mkujtn6a0h\ProjectScript\buildscript).
+16:58:12.496 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_pglf30dpe6ubx5mkujtn6a0h\ProjectScript\no_buildscript).
+16:58:12.496 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\YourCodeHere\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_ep8ywb44loujdan57u74fcs63\ProjectScript\buildscript).
+16:58:12.496 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\YourCodeHere\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_ep8ywb44loujdan57u74fcs63\ProjectScript\no_buildscript).
+16:58:12.496 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\SwerveRoboticsLibrary\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_ar5x8orjdz0wtmt71xxf54c51\ProjectScript\buildscript).
+16:58:12.497 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\SwerveRoboticsLibrary\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_ar5x8orjdz0wtmt71xxf54c51\ProjectScript\no_buildscript).
+16:58:12.497 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\FtcRobotController\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_ew4newoalg909vbkn65xjmlki\ProjectScript\buildscript).
+16:58:12.497 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for build file 'C:\Users\FTC 6473\Downloads\ftc_app-master\FtcRobotController\build.gradle' (C:\Users\FTC 6473\.gradle\caches\2.4\scripts\build_ew4newoalg909vbkn65xjmlki\ProjectScript\no_buildscript).
+16:58:12.497 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (C:\Users\FTC 6473\.gradle\caches\modules-2\metadata-2.15\module-metadata.bin)
+16:58:12.498 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (C:\Users\FTC 6473\.gradle\caches\modules-2).
+16:58:12.498 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (C:\Users\FTC 6473\.gradle\caches\2.4\plugin-resolution) was closed 0 times.
+16:58:12.498 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache jars (C:\Users\FTC 6473\.gradle\caches\jars-1) was closed 0 times.
+16:58:12.499 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache outputFileStates.bin (C:\Users\FTC 6473\Downloads\ftc_app-master\.gradle\2.4\taskArtifacts\outputFileStates.bin)
+16:58:12.500 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (C:\Users\FTC 6473\Downloads\ftc_app-master\.gradle\2.4\taskArtifacts\fileHashes.bin)
+16:58:12.500 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileSnapshots.bin (C:\Users\FTC 6473\Downloads\ftc_app-master\.gradle\2.4\taskArtifacts\fileSnapshots.bin)
+16:58:12.500 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache taskArtifacts.bin (C:\Users\FTC 6473\Downloads\ftc_app-master\.gradle\2.4\taskArtifacts\taskArtifacts.bin)
+16:58:12.500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on task history cache (C:\Users\FTC 6473\Downloads\ftc_app-master\.gradle\2.4\taskArtifacts).
+16:58:12.501 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 24 (avg: 0.0 secs, total: 0.007 secs)
+16:58:12.501 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolved configuration cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+16:58:12.502 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 2 resolution results binary files in 0.001 secs
+16:58:12.502 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 122, cache instances: 8, modules served from cache: 696, artifacts: 84
+16:58:12.502 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+16:58:12.514 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=e1c94830-667f-4771-9979-0ed3a9b0c5cf.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@67699a77]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@3fbae84e with state Running
+16:58:12.515 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=e1c94830-667f-4771-9979-0ed3a9b0c5cf.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@67699a77]
+16:58:12.515 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1447887492515
+16:58:12.515 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as idle, address: [d253f5f8-3317-4303-8e30-9d7f677e82ec port:49179, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+16:58:12.515 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking idle by address: [d253f5f8-3317-4303-8e30-9d7f677e82ec port:49179, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+16:58:12.515 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+16:58:12.515 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+16:58:12.515 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+16:58:12.515 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.tooling.internal.provider.BuildActionResult@61dd39ca]
+16:58:12.515 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: dispatching class org.gradle.launcher.daemon.protocol.Success
+16:58:12.515 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Wed Nov 18 19:58:12 CST 2015
+16:58:12.515 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=e1c94830-667f-4771-9979-0ed3a9b0c5cf.1, currentDir=C:\Users\FTC 6473\Downloads\ftc_app-master}
+16:58:12.531 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 22: received class org.gradle.launcher.daemon.protocol.Finished
+16:58:12.531 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@33bac6d0
+16:58:12.531 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 22: received null
+16:58:12.531 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+16:58:12.572 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: null
+16:58:12.573 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+16:58:12.574 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 13: stopping connection
+23:13:10.515 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: daemon has been idle for requested period. Stopping now.
+23:13:10.515 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Marking daemon stopped due to idle timeout. The daemon is running a build: false
+23:13:10.515 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+23:13:10.515 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+23:13:10.515 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [d253f5f8-3317-4303-8e30-9d7f677e82ec port:49179, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+23:13:10.515 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [d253f5f8-3317-4303-8e30-9d7f677e82ec port:49179, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+23:13:10.515 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+23:13:13.660 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+23:13:13.667 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+23:13:13.671 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Address removed from registry.
+Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+23:13:13.671 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [d253f5f8-3317-4303-8e30-9d7f677e82ec port:49179, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+23:13:13.671 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+23:13:13.671 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+23:13:13.687 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
